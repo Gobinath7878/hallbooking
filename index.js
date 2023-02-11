@@ -17,7 +17,13 @@ app.get('/', function (req, res) {
   })
 
 
-let bookings = [];
+let bookings = [{
+  customerName: "John Doe",
+  roomName: "Deluxe Suite",
+  date: "2023-03-15",
+  startTime: "14:00",
+  endTime: "17:00"
+}];
 
 // room static data
 let rooms =[

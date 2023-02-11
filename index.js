@@ -10,7 +10,7 @@ const port=process.env.PORT || 8000;
 // parse application/json
 app.use(bodyParser.json());
 
-const msg="<div><h1>A home away from home</h1><p>1. Create Room (/create-room)</p><p>2. Book Room (/book-room)</p><p>3. List the customers (/customers)</p><p>4. List of Rooms (/rooms)</p><img src=https://img.freepik.com/free-photo/elegant-hotel-room-with-big-bed_1203-1494.jpg?w=740&t=st=1676112015~exp=1676112615~hmac=486c29213bab38dd67fae57a10a50b2aa98541e105d0c479e79055181311bc84 src=img ></img></div>"
+const msg="<div><h1>A home away from home</h1><p>1. List of Rooms (/rooms)</p><p>2. List the customers (/customers)</p><img src=https://img.freepik.com/free-photo/elegant-hotel-room-with-big-bed_1203-1494.jpg?w=740&t=st=1676112015~exp=1676112615~hmac=486c29213bab38dd67fae57a10a50b2aa98541e105d0c479e79055181311bc84 src=img ></img></div>"
 
 app.get('/', function (req, res) {
     res.send(`${msg}`);

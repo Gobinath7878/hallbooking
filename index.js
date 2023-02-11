@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 
 let bookings = [{
   customerName: "John Doe",
-  roomName: "Deluxe Suite",
+  roomName: "Conference Room A",
   date: "2023-03-15",
   startTime: "14:00",
   endTime: "17:00"
